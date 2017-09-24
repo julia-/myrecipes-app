@@ -1,0 +1,26 @@
+// $navbar-bg: thistle;
+//
+// .navbar {
+//   background: $navbar-bg;
+// }
+
+.jumbotron {
+  background-image: asset-url('hero-image.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#logo:hover {
+  color: #000;
+  text-decoration: underline;
+}
